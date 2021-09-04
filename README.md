@@ -5,6 +5,7 @@ The official web page for dwm can be found [here](https://dwm.suckless.org/).
 
 ## Dependencies
 This version of dwm requires the following packages: \
+dmenu \
 libx11 \
 ttf-font-awesome \
 ttf-ubuntu-font-family \

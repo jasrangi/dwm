@@ -50,7 +50,9 @@ press \
 **Play/pause** key functionality has been added using playerctl \
 **Previous** media key functionality has been added playerctl \
 **Next** media key functionality has been added playerctl \
-**Print screen** key = take screenshot with slock and save it to /home/jas/Pictures/screenshots, modify the path to a valid directory of your choice before use \
+**Print screen** key = take screenshot with slock and save it to 
+/home/jas/Pictures/screenshots, modify the path in config.h to a valid directory
+of your choice before use \
 **Super + shift + L** = lock screen with slock \
 **Super + Shift + S** = Enter sleep mode using systemd \
 **Super + Shift + P** = Power down the host device (shutdown privileges may be

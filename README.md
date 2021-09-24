@@ -7,6 +7,7 @@ The official web page for dwm can be found [here](https://dwm.suckless.org/).
 This version of dwm requires the following packages: \
 dmenu \
 libx11 \
+pamixer \
 ttf-font-awesome \
 ttf-ubuntu-font-family \
 xorg-server \

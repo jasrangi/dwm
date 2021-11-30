@@ -70,7 +70,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "alacritty", NULL };
 /* custom cmds */
 static const char *firefox[]  = { "firefox", NULL };
-static const char *brave[] = { "brave", NULL };
+static const char *browser[] = { "librewolf", NULL };
 static const char *galc[] = { "galculator", NULL };
 static const char *volmute[]  = { "pamixer", "-t", NULL };
 static const char *voldown[]  = { "pamixer", "-d", "5", NULL };
@@ -102,7 +102,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
-	{ MODKEY,                       XK_space,  setlayout,      {0} },
+	{ MODKEY,                       XK_space,  spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
@@ -113,7 +113,7 @@ static Key keys[] = {
 	/* start custom */
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY|ShiftMask,		XK_f,	   spawn,          {.v = firefox } },
-	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = brave } },
+	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = browser } },
 	{ 0,                    XF86XK_Calculator, spawn,          {.v = galc } },
 	{ 0,                     XF86XK_AudioMute, spawn,          {.v = volmute } },
 	{ 0,              XF86XK_AudioLowerVolume, spawn,          {.v = voldown } },

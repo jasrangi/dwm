@@ -42,7 +42,7 @@ Scrot, Slock, Systemd \
 **Super + Q** = close window \
 **Super + Shift + F** = open Firefox \
 **Super + Shift + B** = open Librewolf browser \
-**Super + Space** = open dmenu \
+**Alt_L + Space** = open dmenu \
 **Calculator key** = open the Galculator calculator app \
 **Mute key** functionality has been added \
 **Volume-** functionality has been added and it lowers volume by 5% on a single
